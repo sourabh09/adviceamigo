@@ -15,7 +15,7 @@
     $('#advice').html(data.slip.advice);
 
     $('#twitterlink').attr("href","https://twitter.com/share?text="+data.slip.advice);
-    $('#whatsapplink').attr("href","https://whatsapp://send?text="+data.slip.advice);
+    $('#whatsapplink').attr("href","whatsapp://send?text="+data.slip.advice);
 
   } else {
     console.log('error')
